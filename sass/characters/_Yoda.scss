@@ -1,0 +1,30 @@
+$bg-yoda: rgb(250,240,230);
+$headcolor-yoda:  linear-gradient(-240deg, #75934e 0%, #75934e 50%, #678245 50%, #678245 100%);
+$earscolor-yoda: linear-gradient(to bottom,rgb(117, 147, 78) 0%,rgb(117, 147, 78) 50%,rgb(97, 102, 64) 50%, rgb(97, 102, 64) 100%);
+
+.yoda {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+
+    &__ears {
+        width: 500px;
+        height: 130px;
+        background: $earscolor-yoda;
+        clip-path: polygon(35% 0, 65% 0, 100% 50%, 65% 98%, 35% 100%, 0 50%);
+        transform: translateX(-100px);
+        position: absolute;
+        top: 10%;
+        left: 0;
+        z-index: 0;
+    }
+
+    &__head {
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        background: $headcolor-yoda;
+        position: absolute;
+        z-index: 2000;
+    }
+}

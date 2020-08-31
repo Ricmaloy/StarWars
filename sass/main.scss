@@ -1,2 +1,17 @@
-@import "../sass/characters/Yoda.scss";
-@import "../sass/backgrounds/backgrounds";
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+}
+
+@import "../sass/characters/yoda.scss";
+
+
+@import "../sass/components/backgrounds";
+@import "../sass/components/infos";
+
