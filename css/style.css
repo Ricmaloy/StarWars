@@ -29,12 +29,60 @@ body {
     position: absolute;
     z-index: 2000; }
 
+.chewbacca {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  transform: translateY(-40px); }
+  .chewbacca__nose {
+    width: 40px;
+    height: 40px;
+    clip-path: polygon(50% 0, 100% 75%, 50% 100%, 0 75%);
+    background-color: #000;
+    background: linear-gradient(to left, #000 0%, #000 50%, #1e1e1e 50%, #1e1e1e 100%);
+    position: absolute;
+    left: 50%;
+    top: 42%;
+    transform: translateX(-50%); }
+  .chewbacca__smallfury {
+    width: 180px;
+    height: 180px;
+    background: linear-gradient(to top left, #d4ab72 0%, #d4ab72 50%, #d0a465 50%, #d0a465 100%);
+    position: absolute;
+    border-radius: 50%;
+    border-top-right-radius: 0;
+    bottom: -25px;
+    left: 60px;
+    transform: rotate(135deg); }
+  .chewbacca__fury {
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(to top left, #b17a30 0%, #b17a30 50%, #765424 50%, #765424 100%);
+    position: absolute;
+    border-radius: 50%;
+    border-top-right-radius: 0; }
+    .chewbacca__fury--1 {
+      transform: rotate(105deg); }
+    .chewbacca__fury--2 {
+      transform: rotate(95deg); }
+    .chewbacca__fury--3 {
+      transform: rotate(175deg); }
+    .chewbacca__fury--4 {
+      transform: rotate(155deg); }
+    .chewbacca__fury--5 {
+      transform: rotate(115deg); }
+    .chewbacca__fury--6 {
+      transform: rotate(135deg);
+      background: linear-gradient(to top left, #b17a30 0%, #b17a30 50%, #b17a30 50%, #b17a30 100%); }
+
 .background {
   display: flex;
   justify-content: center;
   align-items: center; }
   .background__yoda {
     background-color: linen; }
+  .background__chewbacca {
+    background-color: #319830; }
 
 .infos {
   margin: 40px;
