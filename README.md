@@ -21,3 +21,10 @@ Nesse repositório vou desenvolver alguns personagens da série de filmes Star W
 
 #
 
+## Chewbacca
+![Boba Fett](https://i.imgur.com/Kv9tCbo.png)
+
+###### feito em: 14/09
+###### Meu codigo [html](https://github.com/Ricmaloy/StarWars/blob/master/characters/bobaFett.html) e [Sass](https://github.com/Ricmaloy/StarWars/blob/master/sass/characters/_bobaFett.scss)
+
+#
