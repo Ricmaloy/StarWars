@@ -75,6 +75,85 @@ body {
       transform: rotate(135deg);
       background: linear-gradient(to top left, #b17a30 0%, #b17a30 50%, #b17a30 50%, #b17a30 100%); }
 
+.bobaFett {
+  position: absolute; }
+  .bobaFett .radio {
+    position: relative; }
+    .bobaFett .radio__top {
+      display: block;
+      width: 50px;
+      height: 25px;
+      position: absolute;
+      background-color: #0f0f0f;
+      clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+      left: -25px;
+      top: -20px; }
+    .bobaFett .radio__cable {
+      display: block;
+      width: 8px;
+      height: 150px;
+      position: absolute;
+      background-color: #ededed;
+      z-index: -2;
+      left: -10px;
+      top: -20px; }
+    .bobaFett .radio__base {
+      display: block;
+      width: 100px;
+      height: 75px;
+      background-color: #f3c623;
+      position: absolute;
+      z-index: -1;
+      top: 80px;
+      left: -25px; }
+  .bobaFett .mask {
+    display: block;
+    width: 300px;
+    height: 330px;
+    background: linear-gradient(to right, #477765 50%, #3b5249 50%, #3b5249 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 65% 100%, 35% 100%, 0 85%);
+    border-top-left-radius: 40%;
+    border-top-right-radius: 40%;
+    overflow: hidden;
+    position: relative; }
+    .bobaFett .mask .eyes {
+      position: relative; }
+      .bobaFett .mask .eyes__in {
+        display: block;
+        width: 270px;
+        height: 255px;
+        background: #3100009e;
+        clip-path: polygon(0 0, 100% 0, 58% 15%, 58% 100%, 42% 100%, 42% 15%);
+        position: absolute;
+        top: 110px;
+        left: 15px;
+        z-index: 1; }
+      .bobaFett .mask .eyes__out {
+        display: block;
+        width: 300px;
+        height: 255px;
+        background: linear-gradient(to right, #8f1515 50%, #5b0b0b 50%, #5b0b0b 100%);
+        position: absolute;
+        top: 75px; }
+    .bobaFett .mask .cheek__left {
+      display: block;
+      width: 175px;
+      position: absolute;
+      height: 270px;
+      bottom: -75px;
+      background-color: #477765;
+      left: -75px;
+      border-top-right-radius: 70%; }
+    .bobaFett .mask .cheek__right {
+      display: block;
+      width: 175px;
+      position: absolute;
+      height: 270px;
+      bottom: -75px;
+      background-color: #477765;
+      right: -75px;
+      border-top-left-radius: 70%; }
+
 .background {
   display: flex;
   justify-content: center;
@@ -83,6 +162,8 @@ body {
     background-color: linen; }
   .background__chewbacca {
     background-color: #319830; }
+  .background__bobaFett {
+    background-color: #323232; }
 
 .infos {
   margin: 40px;

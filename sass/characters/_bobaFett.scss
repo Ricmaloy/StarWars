@@ -1,0 +1,110 @@
+$bg-bobaFett: #323232;
+$radio-top: #0f0f0f;
+$radio-cable: #ededed;
+$radio-base: #f3c623;
+$mask-dark: #3b5249;
+$mask-light: #477765;
+$eyeOut-light: #8f1515;
+$eyeOut-dark: #5b0b0b;
+$eyeIn: #3100009e;
+
+
+.bobaFett {
+    position: absolute;
+
+    .radio {
+        position: relative;
+
+        &__top {
+            display: block;
+            width: 50px;
+            height: 25px;
+            position: absolute;
+            background-color: $radio-top;
+            clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+            left: -25px;
+            top: -20px;
+        }
+        &__cable {
+            display: block;
+            width: 8px;
+            height: 150px;
+            position: absolute;
+            background-color: $radio-cable;
+            z-index: -2;    
+            left: -10px;
+            top: -20px;
+        }
+        &__base {
+            display: block;
+            width: 100px;
+            height: 75px;
+            background-color: $radio-base;
+            position: absolute;
+            z-index: -1;
+            top: 80px;
+            left: -25px;
+        }
+    }
+
+    .mask {
+        display: block;
+        width: 300px;
+        height: 330px;
+        background: linear-gradient(to right, $mask-light 50%, $mask-dark 50%, $mask-dark 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 85%, 65% 100%, 35% 100%, 0 85%);
+        border-top-left-radius: 40%;
+        border-top-right-radius: 40%;
+        overflow: hidden;   
+        position: relative;
+
+        .eyes{
+            position: relative;
+
+            &__in {
+                display: block;
+                width: 270px;
+                height: 255px;
+                background:$eyeIn;
+                clip-path: polygon(0 0, 100% 0, 58% 15%, 58% 100%, 42% 100%, 42% 15%);
+                position: absolute;
+                top: 110px;
+                left: 15px;
+                z-index: 1;
+            }
+            &__out {
+                display: block;
+                width: 300px;
+                height: 255px;
+                background: linear-gradient(to right, $eyeOut-light 50%, $eyeOut-dark 50%, $eyeOut-dark 100%);
+                position: absolute;
+                top: 75px;
+            }
+        }
+
+        .cheek {
+
+            &__left {
+                display: block;
+                width: 175px;
+                position: absolute;
+                height: 270px;
+                bottom: -75px;
+                background-color: $mask-light;
+                left: -75px;
+                border-top-right-radius: 70%;
+
+            }
+            &__right {
+                display: block;
+                width: 175px;
+                position: absolute;
+                height: 270px;
+                bottom: -75px;
+                background-color: $mask-light;
+                right: -75px;
+                border-top-left-radius: 70%;
+            }
+        }
+    }
+}

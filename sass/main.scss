@@ -9,10 +9,10 @@ body {
     height: 100vh;
 }
 
-@import "../sass/characters/yoda.scss";
-@import "../sass/characters/chewbacca.scss";
+@import "../sass/characters/_yoda.scss";
+@import "../sass/characters/_chewbacca.scss";
+@import "../sass/characters/_bobaFett.scss";
 
 
 @import "../sass/components/backgrounds";
 @import "../sass/components/infos";
-
