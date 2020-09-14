@@ -21,7 +21,7 @@ Nesse repositório vou desenvolver alguns personagens da série de filmes Star W
 
 #
 
-## Chewbacca
+## Boba Fett
 ![Boba Fett](https://i.imgur.com/Kv9tCbo.png)
 
 ###### feito em: 14/09
