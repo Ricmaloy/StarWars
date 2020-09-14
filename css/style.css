@@ -182,3 +182,7 @@ body {
       .infos .socials ul li i {
         font-size: 20px;
         color: #2c2c2c; }
+  .infos .socials--light ul li i {
+    color: #fff !important; }
+  .infos--light {
+    color: #fff !important; }
