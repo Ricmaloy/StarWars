@@ -28,3 +28,11 @@ Nesse repositório vou desenvolver alguns personagens da série de filmes Star W
 ###### Meu codigo [html](https://github.com/Ricmaloy/StarWars/blob/master/characters/bobaFett.html) e [Sass](https://github.com/Ricmaloy/StarWars/blob/master/sass/characters/_bobaFett.scss)
 
 #
+
+## Luke Skywalker
+![Luke Skywalker](https://i.imgur.com/NkXJA7I.png)
+
+###### feito em: 03/10
+###### Meu codigo [html](https://github.com/Ricmaloy/StarWars/blob/master/characters/luke.html) e [Sass](https://github.com/Ricmaloy/StarWars/blob/master/sass/characters/_luke.scss)
+
+#
