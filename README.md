@@ -36,3 +36,11 @@ Nesse repositório vou desenvolver alguns personagens da série de filmes Star W
 ###### Meu codigo [html](https://github.com/Ricmaloy/StarWars/blob/master/characters/luke.html) e [Sass](https://github.com/Ricmaloy/StarWars/blob/master/sass/characters/_luke.scss)
 
 #
+
+## Darth Sidious
+![Darth Sidious](https://i.imgur.com/JfnRNyk.png)
+
+###### feito em: 10/10
+###### Meu codigo [html](https://github.com/Ricmaloy/StarWars/blob/master/characters/palpatine.html) e [Sass](https://github.com/Ricmaloy/StarWars/blob/master/sass/characters/_palpatine.scss)
+
+#
