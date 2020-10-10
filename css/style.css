@@ -295,6 +295,60 @@ body {
           border-radius: 50%;
           transform: translate(-15px, -20px); }
 
+.palpatine {
+  width: 300px;
+  height: 350px;
+  position: absolute;
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
+  overflow: hidden; }
+  .palpatine .hood {
+    width: 300px;
+    height: 600px;
+    border-radius: 50%;
+    background: linear-gradient(to right, #343840 50%, #262a30 50%);
+    position: relative; }
+    .palpatine .hood .backface {
+      width: 190px;
+      height: 250px;
+      top: 110px;
+      position: absolute;
+      border-radius: 30%;
+      left: 50%;
+      clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
+      transform: translateX(-50%);
+      overflow: hidden;
+      background-color: #0d0d0d; }
+      .palpatine .hood .backface .wavy {
+        width: 62px;
+        height: 175px;
+        position: absolute;
+        border-radius: 55%;
+        top: 55px; }
+        .palpatine .hood .backface .wavy--left {
+          left: -50px;
+          background-color: #343840; }
+        .palpatine .hood .backface .wavy--right {
+          right: -50px;
+          background-color: #262a30; }
+      .palpatine .hood .backface .mask {
+        width: 145px;
+        height: 300px;
+        position: absolute;
+        background: linear-gradient(to right, #e0e0e0 50%, #c9c9c9 50%);
+        left: 50%;
+        top: -65%;
+        transform: translateX(-50%);
+        border-radius: 55%; }
+        .palpatine .hood .backface .mask--shadow {
+          width: 130px;
+          height: 30px;
+          position: absolute;
+          left: 50%;
+          top: 51%;
+          border-radius: 50%;
+          transform: translateX(-50%);
+          background: linear-gradient(to right, #bebebe 50%, #858585 50%); }
+
 .background {
   display: flex;
   justify-content: center;
@@ -307,6 +361,8 @@ body {
     background-color: #323232; }
   .background__luke {
     background-color: #07689f; }
+  .background__palpatine {
+    background-color: #755da8; }
 
 .infos {
   margin: 40px;
