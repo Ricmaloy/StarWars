@@ -1,0 +1,132 @@
+$bg-C3PO: #ffacb7;
+$back-face-light: #ffefa0;
+$back-face-dark: #ffd57e;
+$front-face-light: #fcf876;
+$front-face-dark: #ffe05d;
+$eye-mounth-light: #a2792f;
+$eye-mounth-dark: #935900;
+
+.C3PO {
+    position: absolute;
+
+
+    .antenna {
+        display: block;
+        width: 20px;
+        height: 50px;
+        background: linear-gradient(to right, $back-face-light 50%, $back-face-dark 50%, $back-face-dark 100%);
+        position: absolute;
+        left: 50%;
+        top: -18px;
+        transform: translateX(-50%);
+        border-radius: 50px;
+    }
+
+    .ear {
+        display: block;
+        width: 20px;
+        height: 60px;
+        background: linear-gradient(to right, $back-face-light 50%, $back-face-dark 50%, $back-face-dark 100%);
+        border-radius: 15px;
+        
+        position: absolute;
+        top: 50%;
+
+        &__left {
+           
+            transform: rotate(-5deg)translateX(9px);
+            left: 0%;
+        }
+
+        &__right {
+            
+            transform: rotate(6deg) translateX(-9px);
+            right: 0%;
+        }
+    }
+
+    .backface{
+        width: 320px;
+        height: 350px;
+        background: linear-gradient(to right, $back-face-light 50%, $back-face-dark 50%, $back-face-dark 100%);
+        clip-path: polygon(0 0, 100% 0, 90% 100%, 50% 100%, 10% 100%);
+        border-top-left-radius: 205px;
+        border-top-right-radius: 205px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .frontface {
+            width: 275px;
+            height: 330px;
+            background: linear-gradient(to right, $front-face-light 50%, $front-face-dark 50%, $front-face-dark 100%);
+            clip-path: polygon(0 0, 100% 0, 95% 90%, 50% 100%, 5% 90%);
+
+            border-top-left-radius: 205px;
+            border-top-right-radius: 205px;
+            border-bottom-left-radius: 100px;
+            border-bottom-right-radius: 100px;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            .eyes {
+                width: 65%;
+
+                display: flex;
+                justify-content: space-between;
+
+                .eye {
+
+                    &--background {
+                        width: 100px;
+                        height: 100px;
+                        border-radius: 50%;
+                        background: $eye-mounth-light;
+                        transform: translate(-25px, -25px);
+                        z-index: -1;
+                        opacity: .2;
+
+                        position: absolute;
+                    }
+
+                    &--ball {
+                        width: 50px;
+                        height: 50px;
+                        border-radius: 50%;
+                        background: linear-gradient(to bottom right, $eye-mounth-light 50%, $eye-mounth-dark 50%, $eye-mounth-dark 100%);
+
+                        display: flex;
+                        justify-content: space-evenly;
+                        overflow: hidden;
+
+                        &-bars {
+                            width: 3px;
+                            height: 50px;
+                            background: $eye-mounth-light;
+                            opacity: .6;
+
+                            &--left {
+                                background: $front-face-light;
+                            }
+
+                            &--right {
+                                background: $front-face-dark;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .mounth {
+                width: 60px;
+                height: 15px;
+                background: linear-gradient(to right, $eye-mounth-light 50%, $eye-mounth-dark 50%, $eye-mounth-dark 100%);
+                transform: translateY(45px);
+            }
+        }
+    }
+}
