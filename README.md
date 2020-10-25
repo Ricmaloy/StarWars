@@ -44,3 +44,11 @@ Nesse repositório vou desenvolver alguns personagens da série de filmes Star W
 ###### Meu codigo [html](https://github.com/Ricmaloy/StarWars/blob/master/characters/palpatine.html) e [Sass](https://github.com/Ricmaloy/StarWars/blob/master/sass/characters/_palpatine.scss)
 
 #
+
+## C3PO
+![C3PO](https://i.imgur.com/ijZIVwm.png)
+
+###### feito em: 25/10
+###### Meu codigo [html](https://github.com/Ricmaloy/StarWars/blob/master/characters/C3PO.html) e [Sass](https://github.com/Ricmaloy/StarWars/blob/master/sass/characters/_C3PO.scss)
+
+#
