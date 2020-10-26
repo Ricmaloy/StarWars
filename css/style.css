@@ -434,6 +434,72 @@ body {
         background: linear-gradient(to right, #a2792f 50%, #935900 50%, #935900 100%);
         transform: translateY(45px); }
 
+.hanSolo {
+  position: absolute; }
+  .hanSolo .head__back {
+    display: block;
+    width: 300px;
+    height: 330px;
+    background: linear-gradient(to right, #f9b384 35%, #e9c083 35%);
+    clip-path: ellipse(45% 50% at 50% 50%); }
+  .hanSolo .head__front {
+    display: block;
+    width: 270px;
+    height: 260px;
+    background: linear-gradient(to right, #f9b384 35%, #e9c083 35%);
+    clip-path: ellipse(45% 50% at 50% 50%);
+    transform: translateX(-50%);
+    z-index: 5;
+    position: absolute;
+    left: 49%;
+    top: 30px; }
+  .hanSolo .backhair {
+    display: block;
+    width: 310px;
+    height: 220px;
+    background: #42240c;
+    border-radius: 50px;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -15px) rotate(-5deg); }
+  .hanSolo .upperhairleft {
+    width: 140px;
+    height: 240px;
+    background: #42240c;
+    border-radius: 20px;
+    border-top-left-radius: 130px;
+    transform: rotate(-5deg);
+    position: absolute;
+    top: -60px; }
+  .hanSolo .upperhairright {
+    width: 180px;
+    height: 240px;
+    background: #42240c;
+    border-radius: 20px;
+    border-top-right-radius: 130px;
+    transform: rotate(10deg);
+    position: absolute;
+    top: -80px;
+    right: 2px; }
+  .hanSolo .smallhair {
+    width: 80px;
+    height: 80px;
+    background: #42240c;
+    border-radius: 50%;
+    clip-path: polygon(0% 0%, 51% 0, 52% 46%, 17% 100%, 26% 46%);
+    position: absolute; }
+  .hanSolo .smallhair1 {
+    top: 0%;
+    left: 25%;
+    z-index: 5; }
+  .hanSolo .smallhair2 {
+    top: -5%;
+    left: 30%;
+    z-index: 5;
+    transform: rotate(-20deg); }
+
 .background {
   display: flex;
   justify-content: center;
@@ -450,6 +516,8 @@ body {
     background-color: #755da8; }
   .background__C3PO {
     background-color: #ffacb7; }
+  .background__hanSolo {
+    background-color: #0f3057; }
 
 .infos {
   margin: 40px;

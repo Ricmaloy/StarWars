@@ -1,0 +1,93 @@
+$bg-hanSolo: #0f3057;
+$face-light: #f9b384;
+$face-dark: #e9c083;
+$hair: #42240c;
+
+.hanSolo {
+    position: absolute;
+
+    .head__back {
+        display: block;
+        width: 300px;
+        height: 330px;
+        background: linear-gradient(to right, $face-light 35%, $face-dark 35% );
+        clip-path: ellipse(45% 50% at 50% 50%);
+    }
+
+    .head__front {
+        display: block;
+        width: 270px;
+        height: 260px;
+        background: linear-gradient(to right, $face-light 35%, $face-dark 35%);
+        clip-path: ellipse(45% 50% at 50% 50%);
+        transform: translateX(-50%);
+        z-index: 5;
+
+        position: absolute;
+        left: 49%;
+        top: 30px;
+    }
+
+    .backhair {
+        display: block;
+        width: 310px;
+        height: 220px;
+        background: $hair;
+        border-radius: 50px;
+        z-index: -1;
+
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, -15px) rotate(-5deg);
+    }
+
+    .upperhairleft {
+        width: 140px;
+        height: 240px;
+        background: $hair;
+        border-radius: 20px;
+        border-top-left-radius: 130px;
+        transform: rotate(-5deg);
+        
+        position: absolute;
+        top: -60px;
+    }
+
+    .upperhairright {
+        width: 180px;
+        height: 240px;
+        background: $hair;
+        border-radius: 20px;
+        border-top-right-radius: 130px;
+        transform: rotate(10deg);
+
+        position: absolute;
+        top: -80px;
+        right: 2px;
+    }
+
+    .smallhair {
+        width: 80px;
+        height: 80px;
+        background: $hair;
+        border-radius: 50%;
+        clip-path: polygon(0% 0%, 51% 0, 52% 46%, 17% 100%, 26% 46%);
+
+        position: absolute;
+    }
+
+    .smallhair1 {
+        top: 0%;
+        left: 25%;
+        z-index: 5;
+    }
+
+    .smallhair2 {
+        top: -5%;
+        left: 30%;
+        z-index: 5;
+        transform: rotate(-20deg);
+    }
+    
+}
