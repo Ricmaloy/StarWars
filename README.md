@@ -52,3 +52,11 @@ Nesse repositório vou desenvolver alguns personagens da série de filmes Star W
 ###### Meu codigo [html](https://github.com/Ricmaloy/StarWars/blob/master/characters/C3PO.html) e [Sass](https://github.com/Ricmaloy/StarWars/blob/master/sass/characters/_C3PO.scss)
 
 #
+
+## Han Solo
+![Han Solo](https://i.imgur.com/RcqOSiC.png)
+
+###### feito em: 25/10
+###### Meu codigo [html](https://github.com/Ricmaloy/StarWars/blob/master/characters/hanSolo.html) e [Sass](https://github.com/Ricmaloy/StarWars/blob/master/sass/characters/_hanSolo.scss)
+
+#
