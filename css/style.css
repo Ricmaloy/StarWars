@@ -500,6 +500,66 @@ body {
     z-index: 5;
     transform: rotate(-20deg); }
 
+.darthVader {
+  position: absolute;
+  transform: scale(1.4) translateY(-30px); }
+  .darthVader__Mask {
+    width: 250px;
+    height: 220px;
+    clip-path: ellipse(35% 50% at 50% 50%);
+    background: linear-gradient(to right, #2c2c2c 50%, #1b1b1b 50%, #1b1b1b 100%); }
+  .darthVader__frontMask {
+    position: absolute;
+    top: -55px;
+    left: 0px;
+    width: 250px;
+    height: 290px;
+    clip-path: polygon(25% 35%, 75% 35%, 93% 85%, 50% 100%, 7% 85%);
+    background: linear-gradient(to right, #2c2c2c 50%, #1b1b1b 50%, #1b1b1b 100%); }
+    .darthVader__frontMask:before {
+      content: "";
+      width: 120px;
+      height: 250px;
+      border-radius: 60%;
+      position: absolute;
+      left: 22px;
+      bottom: -100px;
+      transform: rotate(10deg);
+      background-color: #000; }
+    .darthVader__frontMask:after {
+      content: "";
+      width: 120px;
+      height: 250px;
+      border-radius: 60%;
+      position: absolute;
+      right: 22px;
+      bottom: -100px;
+      transform: rotate(-10deg);
+      background-color: #000; }
+    .darthVader__frontMask--breather {
+      width: 60px;
+      position: absolute;
+      left: 50%;
+      bottom: 15%;
+      transform: translateX(-50%);
+      z-index: 1;
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-end; }
+      .darthVader__frontMask--breather .breatherLine {
+        width: 6px; }
+        .darthVader__frontMask--breather .breatherLine--1, .darthVader__frontMask--breather .breatherLine--5 {
+          height: 20px; }
+        .darthVader__frontMask--breather .breatherLine--2, .darthVader__frontMask--breather .breatherLine--4 {
+          height: 35px; }
+        .darthVader__frontMask--breather .breatherLine--3 {
+          height: 50px;
+          background: linear-gradient(to right, #a8a8a8 50%, #6b6b6b 50%, #6b6b6b 100%); }
+        .darthVader__frontMask--breather .breatherLine--1, .darthVader__frontMask--breather .breatherLine--2 {
+          background-color: #a8a8a8; }
+        .darthVader__frontMask--breather .breatherLine--4, .darthVader__frontMask--breather .breatherLine--5 {
+          background-color: #6b6b6b; }
+
 .background {
   display: flex;
   justify-content: center;
@@ -518,6 +578,8 @@ body {
     background-color: #ffacb7; }
   .background__hanSolo {
     background-color: #0f3057; }
+  .background__darthVader {
+    background-color: #9b1616; }
 
 .infos {
   margin: 40px;

@@ -1,0 +1,108 @@
+$bg-Vader: #9b1616;
+$vaderInsideMask: #000;
+$vaderLightMask: rgb(44, 44, 44);
+$vaderDarkMask: rgb(27, 27, 27);
+$vaderLightBreather: rgb(168, 168, 168);
+$vaderDarkBreather: rgb(107, 107, 107);
+
+.darthVader {
+
+    position: absolute;
+    transform: scale(1.4) translateY(-30px);
+
+    &__Mask{
+        width: 250px;
+        height: 220px;
+
+        clip-path: ellipse(35% 50% at 50% 50%);
+
+        background: linear-gradient(to right,  $vaderLightMask 50%, $vaderDarkMask 50%, $vaderDarkMask 100%);
+    }
+
+    &__frontMask {
+        position: absolute;
+        top: -55px;
+        left: 0px;
+
+        width: 250px;
+        height: 290px;
+
+        clip-path: polygon(25% 35%, 75% 35%, 93% 85%, 50% 100%, 7% 85%);
+
+        background: linear-gradient(to right,  $vaderLightMask 50%, $vaderDarkMask 50%, $vaderDarkMask 100%);
+    
+
+        &:before{
+            content: "";
+            width: 120px;
+            height: 250px;
+            border-radius: 60%;
+            position: absolute;
+            left: 22px;
+            bottom: -100px;
+            transform: rotate(10deg);
+            
+            background-color: $vaderInsideMask;
+        }
+
+        &:after{
+            content: "";
+            width: 120px;
+            height: 250px;
+            border-radius: 60%;
+            position: absolute;
+            right: 22px;
+            bottom: -100px;
+            transform: rotate(-10deg);
+            
+            background-color: $vaderInsideMask;
+        }
+
+        &--breather {
+            width: 60px;
+            
+            position: absolute;
+            left: 50%;
+            bottom: 15%;
+
+            transform: translateX(-50%);
+
+            z-index: 1;
+
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-end;
+
+            .breatherLine {
+                width: 6px;
+
+                // background-color: blue;
+
+                &--1,
+                &--5 {
+                    height: 20px;
+                }
+
+                &--2,
+                &--4 {
+                    height: 35px;
+                }
+
+                &--3 {
+                    height: 50px;
+                    background: linear-gradient(to right,  $vaderLightBreather 50%, $vaderDarkBreather 50%, $vaderDarkBreather 100%);
+                }
+
+                &--1,
+                &--2 {
+                    background-color: $vaderLightBreather;
+                }
+
+                &--4,
+                &--5 {
+                    background-color: $vaderDarkBreather;
+                }
+            }
+        }
+    }
+}
