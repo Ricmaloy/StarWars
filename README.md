@@ -60,3 +60,9 @@ Nesse repositório vou desenvolver alguns personagens da série de filmes Star W
 ###### Meu codigo [html](https://github.com/Ricmaloy/StarWars/blob/master/characters/hanSolo.html) e [Sass](https://github.com/Ricmaloy/StarWars/blob/master/sass/characters/_hanSolo.scss)
 
 #
+
+## Darth Vader
+![Darth Vader](https://i.imgur.com/yu6RBTV.png)
+
+###### feito em: 04/12
+###### Meu codigo [html](https://github.com/Ricmaloy/StarWars/blob/master/characters/darthVader.html) e [Sass](https://github.com/Ricmaloy/StarWars/blob/master/sass/characters/_darthVader.scss)
