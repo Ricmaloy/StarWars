@@ -1,0 +1,69 @@
+$bg-leia: #f9dd50;
+$face-light: #ffd68e;
+$face-dark: #e9c083;
+$hair-dark: #2a190a;
+$hair-light: #3d2918;
+
+.leia {
+    position: absolute;
+    
+    .head {
+        width: 300px;
+        height: 350px;
+
+        background: linear-gradient(to right, $face-light 50%, $face-dark 50% );
+
+        border-radius: 140px;
+
+        overflow: hidden;
+
+        display: flex;
+    
+    .inside__hair {
+        width: 150px;
+        height: 140px;
+
+        background: $hair-dark;
+
+        &--left {
+            border-bottom-right-radius: 50%;
+            transform: translateX(-2px);
+        }
+
+        &--right {
+            border-bottom-left-radius: 50%;
+            transform: translateX(2px);
+        }
+    }
+    
+    }
+
+    .out-hair {
+        position: absolute;
+        display: flex;
+
+        top: 35px;
+
+        .hair {
+            width: 80px;
+            height: 250px;
+
+            background: linear-gradient(to right, $hair-light 50%, $hair-dark 50% );
+
+            border-radius: 50px;
+
+            z-index: 2;
+
+            &--left {
+                transform: translateX(-70px);
+            }
+
+            &--right {
+                transform: translateX(210px);
+            }
+        }
+    }
+
+    
+}
+

@@ -560,6 +560,40 @@ body {
         .darthVader__frontMask--breather .breatherLine--4, .darthVader__frontMask--breather .breatherLine--5 {
           background-color: #6b6b6b; }
 
+.leia {
+  position: absolute; }
+  .leia .head {
+    width: 300px;
+    height: 350px;
+    background: linear-gradient(to right, #ffd68e 50%, #e9c083 50%);
+    border-radius: 140px;
+    overflow: hidden;
+    display: flex; }
+    .leia .head .inside__hair {
+      width: 150px;
+      height: 140px;
+      background: #2a190a; }
+      .leia .head .inside__hair--left {
+        border-bottom-right-radius: 50%;
+        transform: translateX(-2px); }
+      .leia .head .inside__hair--right {
+        border-bottom-left-radius: 50%;
+        transform: translateX(2px); }
+  .leia .out-hair {
+    position: absolute;
+    display: flex;
+    top: 35px; }
+    .leia .out-hair .hair {
+      width: 80px;
+      height: 250px;
+      background: linear-gradient(to right, #3d2918 50%, #2a190a 50%);
+      border-radius: 50px;
+      z-index: 2; }
+      .leia .out-hair .hair--left {
+        transform: translateX(-70px); }
+      .leia .out-hair .hair--right {
+        transform: translateX(210px); }
+
 .background {
   display: flex;
   justify-content: center;
@@ -580,6 +614,8 @@ body {
     background-color: #0f3057; }
   .background__darthVader {
     background-color: #9b1616; }
+  .background__leia {
+    background-color: #f9dd50; }
 
 .infos {
   margin: 40px;
