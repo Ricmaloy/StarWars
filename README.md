@@ -66,3 +66,10 @@ Nesse repositório vou desenvolver alguns personagens da série de filmes Star W
 
 ###### feito em: 04/12
 ###### Meu codigo [html](https://github.com/Ricmaloy/StarWars/blob/master/characters/darthVader.html) e [Sass](https://github.com/Ricmaloy/StarWars/blob/master/sass/characters/_darthVader.scss)
+
+
+## Princesa Leia
+![Princesa Leia](https://i.imgur.com/BShFE96.png)
+
+###### feito em: 18/01
+###### Meu codigo [html](https://github.com/Ricmaloy/StarWars/blob/master/characters/leia.html) e [Sass](https://github.com/Ricmaloy/StarWars/blob/master/sass/characters/_leia.scss)
