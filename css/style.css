@@ -594,6 +594,83 @@ body {
       .leia .out-hair .hair--right {
         transform: translateX(210px); }
 
+.R2D2 {
+  position: absolute; }
+  .R2D2 .top {
+    height: 240px;
+    overflow: hidden; }
+    .R2D2 .top .circle {
+      display: block;
+      width: 480px;
+      height: 480px;
+      background: linear-gradient(to right, #f7f7f7 50%, #e6e6e6 50%, #e6e6e6 100%);
+      clip-path: circle(50% at 50% 50%);
+      position: relative; }
+      .R2D2 .top .circle .eye {
+        display: block;
+        width: 110px;
+        height: 110px;
+        background: linear-gradient(to right, #222222 50%, #000000 50%, #000000 100%);
+        border-radius: 50%;
+        position: absolute;
+        left: 50%;
+        top: 2%;
+        transform: translateX(-50%) rotate(45deg);
+        z-index: 5; }
+      .R2D2 .top .circle .backEye {
+        display: block;
+        width: 180px;
+        height: 150px;
+        border-radius: 20px;
+        background: linear-gradient(to right, #239de4 50%, #1e7bb1 50%, #1e7bb1 100%);
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%); }
+      .R2D2 .top .circle .rectans {
+        width: 100%;
+        display: block;
+        padding: 0 15px;
+        position: absolute;
+        top: 40%;
+        display: flex;
+        justify-content: space-between; }
+        .R2D2 .top .circle .rectans .rectan {
+          width: 70px;
+          height: 30px;
+          border-radius: 12px;
+          position: relative; }
+          .R2D2 .top .circle .rectans .rectan:nth-child(1), .R2D2 .top .circle .rectans .rectan:nth-child(2) {
+            background: #239de4; }
+          .R2D2 .top .circle .rectans .rectan:nth-child(3) {
+            background: linear-gradient(to right, #239de4 50%, #1e7bb1 50%, #1e7bb1 100%); }
+          .R2D2 .top .circle .rectans .rectan:nth-child(4), .R2D2 .top .circle .rectans .rectan:nth-child(5) {
+            background: #1e7bb1; }
+          .R2D2 .top .circle .rectans .rectan .dot {
+            width: 20px;
+            height: 20px;
+            background: #d62323;
+            border-radius: 50%;
+            background: linear-gradient(to right, #d62323 50%, #b61111 50%, #b61111 100%);
+            transform: rotate(45deg);
+            position: absolute;
+            right: 10px;
+            top: 4px; }
+  .R2D2 .base {
+    display: block;
+    width: 480px;
+    height: 50px;
+    background: linear-gradient(to right, #f7f7f7 50%, #e6e6e6 50%, #e6e6e6 100%); }
+    .R2D2 .base .upperLine {
+      width: 100%;
+      height: 50%;
+      background: linear-gradient(to right, #239de4 50%, #1e7bb1 50%, #1e7bb1 100%); }
+    .R2D2 .base .lowerLine {
+      width: 100%;
+      height: 50%;
+      background: linear-gradient(to right, #f7f7f7 50%, #e6e6e6 50%, #e6e6e6 100%); }
+
 .background {
   display: flex;
   justify-content: center;
@@ -616,6 +693,8 @@ body {
     background-color: #9b1616; }
   .background__leia {
     background-color: #f9dd50; }
+  .background__R2D2 {
+    background-color: #ff6219dc; }
 
 .infos {
   margin: 40px;
