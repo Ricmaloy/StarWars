@@ -73,3 +73,13 @@ Nesse repositório vou desenvolver alguns personagens da série de filmes Star W
 
 ###### feito em: 18/01
 ###### Meu codigo [html](https://github.com/Ricmaloy/StarWars/blob/master/characters/leia.html) e [Sass](https://github.com/Ricmaloy/StarWars/blob/master/sass/characters/_leia.scss)
+
+
+## R2D2
+![R2D2](https://i.imgur.com/f64EKcs.png)
+
+###### feito em: 03/05
+###### Meu codigo [html](https://github.com/Ricmaloy/StarWars/blob/master/characters/R2D2.html) e [Sass](https://github.com/Ricmaloy/StarWars/blob/master/sass/characters/_R2D2.scss)
+
+
+
