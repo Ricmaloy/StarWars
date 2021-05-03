@@ -76,10 +76,7 @@ Nesse repositório vou desenvolver alguns personagens da série de filmes Star W
 
 
 ## R2D2
-![R2D2](https://i.imgur.com/f64EKcs.png)
+![R2D2](https://i.imgur.com/np7aVZJ.png)
 
 ###### feito em: 03/05
 ###### Meu codigo [html](https://github.com/Ricmaloy/StarWars/blob/master/characters/R2D2.html) e [Sass](https://github.com/Ricmaloy/StarWars/blob/master/sass/characters/_R2D2.scss)
-
-
-
